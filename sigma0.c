@@ -15,6 +15,7 @@ uint32_t sigma0(uint32_t x) {
 
   return rotr32(x, 2) ^ rotr32(x, 13) ^ rotr32(x, 22);
 }
+/**------------- */
 int main(void) {
   uint32_t x = 0x00000001;
 
